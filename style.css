@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#1f242d;
+    font-family:poppins , sans-serif;
+}
+.header{
+    color:aqua;
+    display:flex;
+    padding:30px;
+}
+.header a{
+    color:aqua;
+    text-decoration:none;
+}
+.navbar{
+    position:relative;
+    top:6px;
+    left:29%;
+}
+.navbar a{
+    font-size:1.5rem;
+    margin-left:4rem;
+}
+.navbar a:hover{
+        transition:0.3s;
+        font-size:xx-large;
+}
+.main-body{
+    display:flex;
+    color:white;
+    justify-content:center;
+    align-items:center;
+}
+img{
+    height:34rem;
+    width:50%;
+}
+.content{
+    padding:30px;
+    width:60%;
+}
+.content h1{
+    font-size:2.7rem;
+    font-weight:bolder;
+}
+.content h2{
+    font-size:4.2rem;
+    font-weight:bold;
+}
+.content h3{
+    font-size:2.7rem;
+}
+span{
+    color:aqua;
+}
+.content p{
+    font-size:1.3rem;
+    font-weight:500;
+}
+.add-icon{
+    display:flex;
+    gap:1.4rem;
+}
+.icons{
+    border:4px solid aqua;
+    padding:10px;
+    border-radius:50%;
+}
+.icons:hover{
+    cursor:pointer;
+    color:black;
+    background-color:aqua;
+}
+#resume{
+    border:2px solid aqua;
+    border-radius:2.3rem;
+    height:3.3rem;
+    background-color:#1f242d;
+    color:white;
+    width:30%;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+#resume:hover{
+    cursor:pointer;
+    background-color:aqua;
+    color:black;
+}
+.photo img{
+    border-radius:50%;
+    width:110%;
+}
+@media (max-width:966px)
+{
+    .logo{
+        font-size:14px;
+    }
+    .icons{
+        margin-left:2rem;
+    }
+}
